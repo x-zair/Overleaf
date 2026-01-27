@@ -21,6 +21,9 @@ deposited in \href{https://github.com/x-zair/ONT\_truthset/tree/main/sanger\_pla
 \url{https://github.com/x-zair/ONT\_truthset/tree/main/sanger\_plasmids}).
 
 
+\footnote{\url{(https://github.com/nanoporetech/dorado}}[v0.5.3)]
+
+
 comment:
 
 cnt + /
