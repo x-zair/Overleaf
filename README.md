@@ -27,3 +27,14 @@ deposited in \href{https://github.com/x-zair/ONT\_truthset/tree/main/sanger\_pla
 comment:
 
 cnt + /
+
+\begin{table}[h]
+\centering
+\caption{Your caption here}
+\label{tab:yourlabel}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{column specs}
+% table content
+\end{tabular}%
+}
+\end{table}
