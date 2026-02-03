@@ -38,3 +38,25 @@ cnt + /
 \end{tabular}%
 }
 \end{table}
+
+
+adding images:
+
+## LaTeX Float Placement Options
+
+| Option | Meaning |
+|--------|---------|
+| `h` | Here (approximately where written) |
+| `t` | Top of page |
+| `b` | Bottom of page |
+| `p` | Own dedicated page |
+| `H` | Exactly here (requires `\usepackage{float}`) |
+| `!` | Override LaTeX defaults |
+
+### Examples
+```latex
+\begin{figure}[H]     % Exactly here
+\begin{figure}[p]     % Own page
+\begin{figure}[htbp]  % Flexible placement
+\begin{figure}[!h]    % Force here
+```
