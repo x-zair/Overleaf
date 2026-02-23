@@ -60,3 +60,28 @@ adding images:
 \begin{figure}[htbp]  % Flexible placement
 \begin{figure}[!h]    % Force here
 ```
+wrap images to side
+\usepackage{wrapfig}
+
+```latex
+\begin{wrapfigure}{r}{0.25\textwidth}
+  \centering
+  \includegraphics[width=0.23\textwidth]{fig/kbplus.png}
+  \caption{1kb Plus DNA Ladder}
+  \label{fig:ladder}
+\end{wrapfigure}
+
+Your paragraph text goes here and will wrap around the image on the left side. 
+The gel electrophoresis was performed using... Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Continue writing your methods or results here 
+and the text will flow naturally around the figure.
+
+```
+
+
+| Option | Meaning |
+|--------|---------|
+| `r` | right |
+| `l` | left |
+| `R` | float to find best place but right |
+| `L` | same but ^ left |
