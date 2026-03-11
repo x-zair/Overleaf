@@ -85,3 +85,7 @@ and the text will flow naturally around the figure.
 | `l` | left |
 | `R` | float to find best place but right |
 | `L` | same but ^ left |
+
+Dropcaps:
+
+\lettrine[lines=2, lhang=0.1, nindent=5pt]{W}{} ith
